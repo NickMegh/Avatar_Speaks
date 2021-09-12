@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root{
+    --primary-color: #faea27;
+    --secondary-color:#111827;
+    --off-white: #F9FAFB;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    background-image: url("./images/avatar-bg.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+header{
+    margin: auto;
+    text-align: center;
+    color: var(--secondary-color);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+h1 {    
+    color: #ffffff;
+}
+
+
+textarea{
+    display:block;
+    border: 2px solid white;
+    width: 75%;
+    height: 15vh;
+    padding: 2rem;
+    margin: auto;
+    border-radius: 1rem;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+
+textarea::placeholder {
+    color: white;
+
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-translate {
+    background-color: #aabbcd;
+    padding: .8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    letter-spacing: 1px;
+    margin: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 100ms ease-in-out;
+    border: none;
+}
+
+#output{
+    display: block;
+    border: 2px solid white;
+    width: 75%;
+    height: 15vh;
+    padding: 2rem;
+    margin: auto;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.footer{
+    padding: 1.5rem;
+    text-align: center;
+    color: var(--secondary-color);
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    margin: 0 .8rem;
+    cursor: pointer;
+    color: white;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: .6rem;
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
